@@ -1,0 +1,11 @@
+# Archivos compilados
+*.o
+*.bin
+*.iso
+
+# Carpeta intermedia de la ISO
+isodir/
+
+# Backups de editores
+*~
+*.swp
