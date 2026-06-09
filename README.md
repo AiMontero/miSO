@@ -2,7 +2,7 @@
 
 Un sistema operativo educativo escrito desde cero en C y Assembly x86.
 
-Bootea sobre hardware (real o emulado) sin ningún sistema operativo debajo, maneja interrupciones de hardware, lee el teclado, mide el tiempo, e incluye una mini-shell con un sistema de archivos en RAM.
+Bootea sobre Linux, maneja interrupciones de hardware, lee el teclado, mide el tiempo, e incluye una mini-shell con un sistema de archivos en RAM.
 
 Hecho con fines de aprendizaje, siguiendo de cerca la [OSDev Wiki](https://wiki.osdev.org/). El objetivo es que cualquiera pueda clonar el repo, seguir los pasos y tener su propio SO booteando.
 
