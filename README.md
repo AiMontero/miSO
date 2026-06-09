@@ -6,6 +6,10 @@ Bootea sobre hardware (real o emulado) sin ningún sistema operativo debajo, man
 
 Hecho con fines de aprendizaje, siguiendo de cerca la [OSDev Wiki](https://wiki.osdev.org/). El objetivo es que cualquiera pueda clonar el repo, seguir los pasos y tener su propio SO booteando.
 
+![miSO corriendo en QEMU: shell con sistema de archivos](screenshots/miso-filesystem.png)
+
+*miSO v0.5 corriendo en QEMU: la mini-shell con su sistema de archivos en RAM.*
+
 ---
 
 ## ✨ Características
@@ -38,6 +42,10 @@ Hecho con fines de aprendizaje, siguiendo de cerca la [OSDev Wiki](https://wiki.
 | `rm <nombre>` | Borra un archivo |
 
 > ⚠️ El sistema de archivos vive en RAM: los archivos se pierden al apagar. La persistencia en disco requiere un driver de disco (ver Roadmap).
+
+![miSO con teclado y manejo de interrupciones](screenshots/miso-teclado.png)
+
+*Arranque del sistema: GDT, IDT, IRQs y teclado inicializados, listo para recibir entrada.*
 
 ---
 
